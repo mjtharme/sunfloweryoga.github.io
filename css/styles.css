@@ -1,0 +1,260 @@
+/* Variable Settings */
+
+:root {
+  --color-title: #019267;
+  --colour-main: #00C897;
+  --colour-highlight: #FFD365;
+  --colour-bottom: #FDFFA9;
+  --text-font: "Sunflower";
+}
+
+
+body {
+  font-family: var(--text-font);
+  text-align: center;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--text-font);
+  font-weight: bold;
+
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+/*  color: var(--colour-highlight); */
+}
+
+/* Generic Settings */
+/* Common elements repeated within the page */
+
+.title-scheme {
+  background-color: var(--color-title);
+  color: #FFFF;
+}
+
+
+.color-scheme {
+  background-color: var(--colour-main);
+  color: #FFFF;
+  .icon {
+    color: #FFFF;
+    margin-bottom: 1rem
+  }
+}
+
+.white-scheme {
+  background-color: #fff;
+  color: var(--colour-main);
+  .icon {
+    color: var(--colour-main);
+    margin-bottom: 1rem
+  }
+}
+
+.icon:hover {
+  color: var(--colour-highlight);
+}
+
+.btn-dark {
+  background-color: var(--colour-highlight);
+  color: #FFFF;
+  border: none;
+
+}
+
+.btn-dark:hover,
+.btn-dark:focus:hover,
+.btn-dark:active:hover
+ {
+  background-color: var(--colour-main);
+}
+
+.btn-dark:active,
+.btn-dark:focus
+ {
+  background-color: var(--color-title);
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+
+.card-header {
+  background-color: var(--colour-main);
+
+}
+
+.btn-info {
+  background-color: var(--colour-main);
+  color: #FFFF;
+  border:none;
+
+}
+
+.btn-info:hover {
+  background-color: var(--colour-highlight);
+
+}
+
+.btn-info:active {
+  background-color: var(--colour-highlight);
+}
+
+.section-margin {
+  margin: 7% 15%;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu" sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+
+/* Title Setting  */
+
+#title {
+  background-color: var(--colour-main);
+}
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+
+}
+
+/* Download Buttons */
+
+.main-heading{
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+
+}
+
+
+.autobiography-pic {
+  position: absolute;
+  height:250px;
+  width:250px;
+
+}
+
+.yoga-image {
+  position: absolute;
+  height:250px;
+
+}
+
+
+/* About  */
+
+#about {
+  position: relative;
+
+}
+
+.card {
+  padding: 5%;
+  border-style:none;
+}
+
+
+/* Benefits Section  */
+
+#therapies {
+/*position: relative; */
+  padding-bottom: 1.5%
+}
+
+.card-body {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  padding: 2%;
+  text-align: left;
+
+  }
+
+.headline {
+  colour: black;
+}
+
+/* Classes Section */
+
+
+#classes-header {
+  padding: 3% 15%;
+
+}
+
+#classes {
+  position: relative;
+  padding-bottom: 3.5%
+  padding: 2%;
+}
+
+
+/* Google Maps Presentation */
+
+
+#gmap_canvas {
+  text-align:center;
+  display:block;
+  background:none!important;
+  background-color: white;
+  height:400px;
+  width:400px;
+  }
+
+
+/* CTA Section */
+
+
+
+/* Footer */
+
+
+#footer .container-fluid {
+    padding: 3.5% 15%;
+    font-size: 0.5rem;
+    margin-right: auto;
+}
+
+#footer .icon {
+  margin: 1rem;
+
+}
